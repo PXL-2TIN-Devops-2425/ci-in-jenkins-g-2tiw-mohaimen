@@ -28,5 +28,11 @@ pipeline {
                 sh 'npm install'
             }
         }
+        stage('unittest') {
+            steps {
+                 sh 'npm test'
+                junit 'test-resultaat.xml'
+            }
+        }
     }
 }
