@@ -51,7 +51,7 @@ c)
 
  - build van Fetching Source
 
-    ![credentials](screenshots/puntA/image7.png)
+    ![fetching-source](screenshots/puntA/image7.png)
 
  - build van NodeJS configuration
 
@@ -59,6 +59,10 @@ c)
 
  - build van installing dependencies
 
-    ![Nodejs](screenshots/puntC/image1.png)
+    ![installing-dependencies](screenshots/puntC/image1.png)
+
+ - build van unittest met een rapport gemaakt 
+
+    ![unittest](screenshots/puntC/image1.png)
 
 d)
