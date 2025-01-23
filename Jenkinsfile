@@ -15,7 +15,6 @@ pipeline {
                     url: 'git@github.com:mohaimenpxl/calculator-app-finished.git',
                     credentialsId: 'github'
             }
-
         }
         stage('Setup NodeJS'){
             steps{

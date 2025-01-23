@@ -40,6 +40,10 @@ b)
  - en Ik heb een stage toegevoegd namelijk Setup NodeJS
 
     ![Nodejs](screenshots/puntB/image2.png)
+
+ - de console output
+ 
+    ![Nodejs](screenshots/puntB/image3.png)
 c)
 
 
