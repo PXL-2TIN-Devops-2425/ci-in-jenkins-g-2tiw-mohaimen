@@ -67,6 +67,15 @@ c)
 
  - build van Create bundle 
 
-    ![unittest](screenshots/puntC/image3.png)
+    ![create bundle](screenshots/puntC/image3.png)
 
+ - build van Success, Failure
+
+    ![sucess-en-failure](screenshots/puntC/image4.png)
+
+ - de failed build in de jenkinserrorlog
+
+    ![failed-build](screenshots/puntC/image5.png)
+
+    
 d)
