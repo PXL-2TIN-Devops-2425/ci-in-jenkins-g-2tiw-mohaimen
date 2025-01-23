@@ -46,6 +46,7 @@ b)
 
     ![Nodejs](screenshots/puntB/image3.png)
 
+---
 
 c)
 
@@ -77,5 +78,13 @@ c)
 
     ![failed-build](screenshots/puntC/image5.png)
 
-    
+---
+
 d)
+
+ - Automatisch pipeline, elke vrijdag om 14u
+    1. Geopend de pipeline configuratie in Jenkins
+    2. In de sectie **Triggers** heb ik **Build periodically** ingeschakeld.
+    3. Dit cron expressie ingevoerd: **H 14 * * 5**
+
+    ![automatisch-pipeline](screenshots/puntD/image.png)
