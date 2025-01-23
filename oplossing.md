@@ -30,6 +30,7 @@ a)
 
     ![credentials](screenshots/puntA/image7.png)
 
+---
 
 b)
  - Na de installatie van NodeJs plugin via plugins in manage jenkins heb ik dit toegoevoegd in de Global tool configuration
@@ -42,9 +43,18 @@ b)
     ![Nodejs](screenshots/puntB/image2.png)
 
  - de console output
- 
+
     ![Nodejs](screenshots/puntB/image3.png)
+
+
 c)
 
+ - build van Fetching Source
+
+    ![credentials](screenshots/puntA/image7.png)
+
+ - build van NodeJS configuration
+
+    ![Nodejs](screenshots/puntB/image3.png)
 
 d)
