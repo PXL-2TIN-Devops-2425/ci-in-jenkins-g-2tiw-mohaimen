@@ -63,6 +63,10 @@ c)
 
  - build van unittest met een rapport gemaakt 
 
-    ![unittest](screenshots/puntC/image1.png)
+    ![unittest](screenshots/puntC/image2.png)
+
+ - build van Create bundle 
+
+    ![unittest](screenshots/puntC/image3.png)
 
 d)
