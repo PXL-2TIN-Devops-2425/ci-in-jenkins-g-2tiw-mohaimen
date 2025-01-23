@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'TINnode-devops'
+        nodejs 'TINode-devops'
     }
     stages {
         stage('opdracht 5') {
@@ -16,7 +16,7 @@ pipeline {
                     credentialsId: 'github'
             }
         stage('Setup NodeJS'){
-            echo 'NodeJS configuration gebruiken: TINnode-devops'
+            echo 'NodeJS configuration gebruiken: TINode-devops'
                 sh 'node --version'
                 sh 'npm --version'
         }
