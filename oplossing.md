@@ -57,4 +57,8 @@ c)
 
     ![Nodejs](screenshots/puntB/image3.png)
 
+ - build van installing dependencies
+
+    ![Nodejs](screenshots/puntC/image1.png)
+
 d)
