@@ -16,9 +16,11 @@ pipeline {
                     credentialsId: 'github'
             }
         stage('Setup NodeJS'){
-            echo 'NodeJS configuration gebruiken: TINode-devops'
+            steps{
+                echo 'NodeJS configuration gebruiken: TINode-devops'
                 sh 'node --version'
                 sh 'npm --version'
+            }
         }
         }
     }
