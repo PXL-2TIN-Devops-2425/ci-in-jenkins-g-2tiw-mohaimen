@@ -30,9 +30,20 @@ pipeline {
         }
         stage('unittest') {
             steps {
-                 sh 'npm test'
+                sh 'npm test'
                 junit 'junit.xml'
             }
         }
+        stage('Create Bundle') {
+            steps {
+                sh '''
+                mkdir bundle
+                cp -r app.js server.js routes.js public package.json package-lock.json bundle/
+                zip -r bundle.zip bundle
+                '''
+                archiveArtifacts artifacts: 'bundle.zip', fingerprint: true
+            }
+        }
+
     }
 }
