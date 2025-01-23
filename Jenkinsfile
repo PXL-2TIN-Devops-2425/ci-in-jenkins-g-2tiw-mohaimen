@@ -46,4 +46,17 @@ pipeline {
         }
 
     }
+    post {
+        success {
+            archiveArtifacts artifacts: 'bundle.zip', fingerprint: true
+        }
+        failure {
+            script {
+                def date = new Date().format("dd-MM-yyyy HH:mm:ss")
+                def errorMessage = "pipeline poging faalt op ${date}\n"
+                writeFile file: '/var/lib/jenkins/jenkinserrorlog', text: errorMessage
+                echo "Error log written to /var/lib/jenkins/jenkinserrorlog"
+            }
+        }
+    }
 }
